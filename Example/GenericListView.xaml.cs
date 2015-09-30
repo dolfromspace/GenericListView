@@ -96,7 +96,22 @@ namespace Example
         }
 
         public static DependencyProperty CollectionSourceProperty = DependencyProperty.Register("CollectionSource", typeof(Object), typeof(GenericListView), new UIPropertyMetadata(CollectionChangedHandler));
-        
+
+        public static DependencyProperty RowHeightProperty = DependencyProperty.Register("RowHeight", typeof(long), typeof(GenericListView), new UIPropertyMetadata(RowHeightChangedHandler));
+
+        public static void RowHeightChangedHandler(DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        {
+            GenericListView control = sender as GenericListView;
+            var listview = control.listv;
+            var s = new Style(typeof(ListViewItem));
+
+            var HeightSetter = new Setter { Property = HeightProperty, Value = Convert.ToDouble( e.NewValue ) };
+
+            s.Setters.Add(HeightSetter);
+
+            listview.ItemContainerStyle = s;  
+        }
+
         public static void CollectionChangedHandler(DependencyObject sender, DependencyPropertyChangedEventArgs e)
         {
             // Get instance of current control from sender
@@ -115,6 +130,12 @@ namespace Example
         {
             get { return GetValue(CollectionSourceProperty) as IEnumerable; }
             set { SetValue(CollectionSourceProperty, value); }
+        }
+
+        public long RowHeight
+        {
+            get { return (long)GetValue(RowHeightProperty); }
+            set { SetValue(RowHeightProperty, value); }
         }
 
         public class MyListviewItem

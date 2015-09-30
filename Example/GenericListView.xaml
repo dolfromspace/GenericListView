@@ -6,10 +6,5 @@
              mc:Ignorable="d" 
              TextOptions.TextFormattingMode="Display">
     <ListView Name="listv" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler" Margin="0,0,0,0" >
-        <ListView.ItemContainerStyle>
-            <Style TargetType="ListViewItem">
-                <Setter Property="Height" Value="20" />
-            </Style>
-        </ListView.ItemContainerStyle>
     </ListView>
 </UserControl>

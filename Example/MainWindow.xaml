@@ -4,6 +4,6 @@
         Title="MainWindow" Height="350" Width="525"
         xmlns:i="clr-namespace:Example">
     <Grid>
-        <i:GenericListView CollectionSource="{Binding Path=listAnimals}"></i:GenericListView>
+        <i:GenericListView CollectionSource="{Binding Path=listAnimals}" RowHeight="50"></i:GenericListView>
     </Grid>
 </Window>

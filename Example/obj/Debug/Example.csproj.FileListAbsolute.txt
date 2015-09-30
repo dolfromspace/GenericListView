@@ -1,0 +1,16 @@
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\bin\Debug\Example.exe.config
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\bin\Debug\Example.exe
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\bin\Debug\Example.pdb
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\GenericListView.baml
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\GenericListView.g.cs
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\MainWindow.g.cs
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\App.g.cs
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example_MarkupCompile.cache
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example_MarkupCompile.lref
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\MainWindow.baml
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example.g.resources
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example.Properties.Resources.resources
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example.csproj.GenerateResource.Cache
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example.exe
+C:\Projects\CdbArchitect\iPower\source\CdbArchitect\Example\Example\obj\Debug\Example.pdb
