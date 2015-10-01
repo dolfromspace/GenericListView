@@ -95,9 +95,9 @@ namespace Example
             }
         }
 
-        public static DependencyProperty CollectionSourceProperty = DependencyProperty.Register("CollectionSource", typeof(Object), typeof(GenericListView), new UIPropertyMetadata(CollectionChangedHandler));
+        public static DependencyProperty CollectionSourceProperty = DependencyProperty.Register("CollectionSource", typeof(Object), typeof(GenericListView), new PropertyMetadata(CollectionChangedHandler));
 
-        public static DependencyProperty RowHeightProperty = DependencyProperty.Register("RowHeight", typeof(long), typeof(GenericListView), new UIPropertyMetadata(RowHeightChangedHandler));
+        public static DependencyProperty RowHeightProperty = DependencyProperty.Register("RowHeight", typeof(long), typeof(GenericListView), new PropertyMetadata(RowHeightChangedHandler));
 
         public static void RowHeightChangedHandler(DependencyObject sender, DependencyPropertyChangedEventArgs e)
         {
@@ -106,7 +106,7 @@ namespace Example
             var s = new Style(typeof(ListViewItem));
 
             var HeightSetter = new Setter { Property = HeightProperty, Value = Convert.ToDouble( e.NewValue ) };
-
+            
             s.Setters.Add(HeightSetter);
 
             listview.ItemContainerStyle = s;  
